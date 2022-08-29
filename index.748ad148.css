@@ -1,0 +1,110 @@
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mood {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Megrim, cursive;
+  transition: all 1s 1s;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.mood-div {
+  height: 70%;
+  width: 100%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  display: flex;
+}
+
+.mood-card {
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s .1s;
+  display: flex;
+}
+
+.mood-image {
+  width: 70%;
+}
+
+.mood-title {
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  background: linear-gradient(to top, #0009, #00000080);
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+.mood-name {
+  text-align: center;
+  width: 70%;
+  background: linear-gradient(to top, #0009, #00000080);
+  font-size: 2.5rem;
+}
+
+.mood-foot-cred {
+  width: 90%;
+  text-align: right;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.mood-card:hover {
+  transition: all .5s .1s;
+  transform: translateY(2rem);
+}
+
+.mood-foot {
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  display: flex;
+}
+
+.music-box {
+  width: 15rem;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 3rem;
+  display: flex;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.select-box {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #05eedb;
+  border-radius: 5px;
+}
+
+.music-text {
+  background: linear-gradient(to top, #0009, #00000080);
+  font-size: 4rem;
+}
+
+.frame {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  position: absolute;
+}
+
+/*# sourceMappingURL=index.748ad148.css.map */

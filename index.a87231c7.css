@@ -1,0 +1,78 @@
+@media (max-width: 72rem) {
+  .mood-div {
+    gap: 2vw;
+  }
+}
+
+@media (max-width: 55rem) {
+  .mood-title {
+    font-size: 4rem;
+  }
+
+  .mood-card {
+    height: 80%;
+  }
+
+  .mood-image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 40rem) {
+  .mood-title {
+    margin-bottom: 5vh;
+    font-size: 3rem;
+  }
+
+  .music-box {
+    bottom: 1rem;
+    left: -1rem;
+  }
+
+  .music-text {
+    font-size: 3rem;
+  }
+
+  .mood-foot-cred {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 28rem) {
+  .mood-title {
+    margin-bottom: 5vh;
+    font-size: 3rem;
+  }
+
+  .mood-div {
+    grid-template-rows: 35% 35%;
+    grid-template-columns: 30% 30%;
+    gap: 10%;
+    display: grid;
+  }
+
+  .mood-name {
+    font-size: 2rem;
+  }
+
+  .music-box {
+    bottom: 7rem;
+    left: -1rem;
+  }
+
+  .mood-foot {
+    position: absolute;
+    bottom: 7rem;
+    right: -1rem;
+  }
+
+  .frame {
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    position: absolute;
+    transform: scale(1.2);
+  }
+}
+
+/*# sourceMappingURL=index.a87231c7.css.map */

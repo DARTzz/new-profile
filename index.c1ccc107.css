@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:focus {
+  outline: none;
+  transition: all .2s;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 .5rem #f72585;
+}
+
+.section--hidden {
+  opacity: 0;
+  transition: all 1s 1s;
+  transform: translateY(8rem);
+}
+
+.section--visible {
+  opacity: 1;
+  transition: all 1s 1s;
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=index.c1ccc107.css.map */
