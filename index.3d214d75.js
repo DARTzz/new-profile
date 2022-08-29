@@ -27147,6 +27147,17 @@ var _frame2PngDefault = parcelHelpers.interopDefault(_frame2Png);
 var _viperJpg = require("./../../resources/mood/Viper.jpg");
 var _viperJpgDefault = parcelHelpers.interopDefault(_viperJpg);
 var _s = $RefreshSig$();
+let pictures = [
+    (0, _reynaJpgDefault.default),
+    (0, _sageJpgDefault.default),
+    (0, _jettJpgDefault.default),
+    (0, _viperJpgDefault.default)
+];
+function componentDidMount() {
+    pictures.forEach((picture)=>{
+        new Image().src = picture.fileName;
+    });
+}
 function Mood(params) {
     _s();
     let [backGround, changeBackground] = (0, _reactDefault.default).useState({
@@ -27188,7 +27199,7 @@ function Mood(params) {
     ]);
     (0, _reactDefault.default).useEffect(()=>{
         const revealSection = function(entries, observer) {
-            console.log(entries);
+            componentDidMount();
             const [entry] = entries;
             if (!entry.isIntersecting) return;
             entry.target.classList.add("section--visible");
@@ -27210,7 +27221,7 @@ function Mood(params) {
                 children: "What mood are you feeling today?"
             }, void 0, false, {
                 fileName: "components/mood-components/Mood.js",
-                lineNumber: 67,
+                lineNumber: 74,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27226,7 +27237,7 @@ function Mood(params) {
                         p: "1"
                     }, void 0, false, {
                         fileName: "components/mood-components/Mood.js",
-                        lineNumber: 69,
+                        lineNumber: 76,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _moodCardJsDefault.default), {
@@ -27239,7 +27250,7 @@ function Mood(params) {
                         p: "2"
                     }, void 0, false, {
                         fileName: "components/mood-components/Mood.js",
-                        lineNumber: 78,
+                        lineNumber: 85,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _moodCardJsDefault.default), {
@@ -27252,7 +27263,7 @@ function Mood(params) {
                         p: "3"
                     }, void 0, false, {
                         fileName: "components/mood-components/Mood.js",
-                        lineNumber: 87,
+                        lineNumber: 94,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _moodCardJsDefault.default), {
@@ -27265,13 +27276,13 @@ function Mood(params) {
                         p: "4"
                     }, void 0, false, {
                         fileName: "components/mood-components/Mood.js",
-                        lineNumber: 96,
+                        lineNumber: 103,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/mood-components/Mood.js",
-                lineNumber: 68,
+                lineNumber: 75,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27281,12 +27292,12 @@ function Mood(params) {
                     children: "Inspired from VALORANT"
                 }, void 0, false, {
                     fileName: "components/mood-components/Mood.js",
-                    lineNumber: 107,
+                    lineNumber: 114,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "components/mood-components/Mood.js",
-                lineNumber: 106,
+                lineNumber: 113,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27296,7 +27307,7 @@ function Mood(params) {
                         className: "select-box"
                     }, void 0, false, {
                         fileName: "components/mood-components/Mood.js",
-                        lineNumber: 110,
+                        lineNumber: 117,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -27304,13 +27315,13 @@ function Mood(params) {
                         children: "MUSIC"
                     }, void 0, false, {
                         fileName: "components/mood-components/Mood.js",
-                        lineNumber: 111,
+                        lineNumber: 118,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/mood-components/Mood.js",
-                lineNumber: 109,
+                lineNumber: 116,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27318,13 +27329,13 @@ function Mood(params) {
                 src: (0, _frame2PngDefault.default)
             }, void 0, false, {
                 fileName: "components/mood-components/Mood.js",
-                lineNumber: 113,
+                lineNumber: 120,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/mood-components/Mood.js",
-        lineNumber: 66,
+        lineNumber: 73,
         columnNumber: 9
     }, this);
 }
