@@ -27,4 +27,8 @@ html {
   transform: translateY(0);
 }
 
+.preLoad {
+  display: none;
+}
+
 /*# sourceMappingURL=index.c1ccc107.css.map */
