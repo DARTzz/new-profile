@@ -27160,6 +27160,7 @@ function componentDidMount() {
 }
 function Mood(params) {
     _s();
+    componentDidMount();
     let [backGround, changeBackground] = (0, _reactDefault.default).useState({
         background: `linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(${(0, _valoBackJpgDefault.default)}) center/cover fixed no-repeat`
     });
@@ -27199,7 +27200,6 @@ function Mood(params) {
     ]);
     (0, _reactDefault.default).useEffect(()=>{
         const revealSection = function(entries, observer) {
-            componentDidMount();
             const [entry] = entries;
             if (!entry.isIntersecting) return;
             entry.target.classList.add("section--visible");
