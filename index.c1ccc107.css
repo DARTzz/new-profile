@@ -1,3 +1,12 @@
+@import "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&dkkisplay=swap";
+@import "https://fonts.googleapis.com/css2?family=Monoton&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lobster&family=Megrim&display=swap";
+@font-face {
+  font-family: valorantFont;
+  src: url("font.0c88a349.ttf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +15,10 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
 }
 
 :focus {

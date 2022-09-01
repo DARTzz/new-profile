@@ -1,16 +1,27 @@
-section {
+@import "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&dkkisplay=swap";
+@import "https://fonts.googleapis.com/css2?family=Monoton&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lobster&family=Megrim&display=swap";
+.section-first-ever {
   width: 100vw;
   height: 100vh;
 }
 
+@font-face {
+  font-family: valorantFont;
+  src: url("font.0c88a349.ttf");
+}
+
 .mood {
   width: 100vw;
-  height: 100vh;
   color: #fff;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  font-family: Megrim, cursive;
+  gap: 5vh;
+  padding: 5%;
+  font-family: valorantFont, cursive;
+  font-weight: 500;
   transition: all 1s 1s;
   display: flex;
   position: relative;
@@ -18,7 +29,7 @@ section {
 }
 
 .mood-div {
-  height: 70%;
+  height: 60%;
   width: 100%;
   z-index: 1;
   justify-content: center;
@@ -28,7 +39,7 @@ section {
 }
 
 .mood-card {
-  height: 60%;
+  height: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -45,7 +56,7 @@ section {
   text-align: center;
   z-index: 1;
   background: linear-gradient(to top, #0009, #00000080);
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -53,13 +64,15 @@ section {
   text-align: center;
   width: 70%;
   background: linear-gradient(to top, #0009, #00000080);
+  font-family: Megrim, cursive;
   font-size: 2.5rem;
 }
 
 .mood-foot-cred {
-  width: 90%;
-  text-align: right;
+  width: 100%;
+  text-align: center;
   color: #fff;
+  background: linear-gradient(to top, #0009, #00000080);
   font-size: 2rem;
 }
 
@@ -75,19 +88,6 @@ section {
   display: flex;
 }
 
-.music-box {
-  width: 15rem;
-  z-index: 1;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-left: 3rem;
-  display: flex;
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-}
-
 .select-box {
   width: 2.5rem;
   height: 2.5rem;
@@ -95,16 +95,236 @@ section {
   border-radius: 5px;
 }
 
-.music-text {
-  background: linear-gradient(to top, #0009, #00000080);
-  font-size: 4rem;
-}
-
 .frame {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   z-index: 0;
   position: absolute;
+}
+
+.header {
+  height: 12vh;
+  width: 100vw;
+  z-index: 100;
+  outline-offset: 1rem;
+  background-color: #161616;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  outline: 1px solid #fff;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  display: flex;
+  position: fixed;
+}
+
+.header-logo {
+  width: 50%;
+}
+
+.falcon-logo-one, .falcon-logo-two {
+  display: none;
+}
+
+.header-image {
+  width: 35%;
+}
+
+.header-music {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 80vh;
+  left: 0;
+}
+
+.header-gif {
+  height: 10vh;
+  border-radius: 500px;
+}
+
+.header-nav {
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.header-nav-two {
+  display: none;
+}
+
+.header-nav-link {
+  color: #fff;
+  font-family: Rubik, cursive;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: all .2s;
+}
+
+.header-nav-link:hover {
+  cursor: pointer;
+  background-color: #80808081;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: .6rem .5rem .5rem;
+  transition: all .2s;
+  transform: scale(1.1);
+}
+
+.header-nav-special {
+  color: #fff;
+  background-color: #fc4646;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: .6rem .5rem .5rem;
+  font-family: valorantFont, cursive;
+  font-size: 1.8rem;
+  transition: all .2s;
+}
+
+.header-nav-special:hover {
+  cursor: pointer;
+  background-color: #fc4646;
+  transition: all .2s;
+  transform: scale(1.1);
+}
+
+.header-music-div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.header-pause-icon {
+  opacity: .7;
+  z-index: 200;
+  display: none;
+  position: absolute;
+}
+
+.header-play-icon {
+  opacity: .7;
+  z-index: 200;
+  position: absolute;
+}
+
+.banner {
+  height: 95vh;
+  width: 100vw;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+#myVideo {
+  object-fit: contain;
+  height: 100vh;
+  opacity: 1;
+}
+
+.banner-div {
+  width: 100vw;
+  background: linear-gradient(to top, #0009, #00000080);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  position: absolute;
+}
+
+.banner-sub-text {
+  text-align: center;
+  color: #fff;
+  font-family: Rubik, cursive;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.banner-main-text {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 4rem;
+  font-family: valorantFont, cursive;
+  font-size: 8rem;
+  font-weight: 500;
+}
+
+.banner-button {
+  color: #fff;
+  outline-offset: .5rem;
+  background-color: #fc4646;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  outline: 1px solid #fff;
+  padding: 1rem .75rem .75rem;
+  font-family: valorantFont, cursive;
+  font-size: 2rem;
+  transition: all .5s;
+}
+
+.banner-button:hover {
+  cursor: pointer;
+  transition: all .5s;
+  transform: scale(1.1);
+}
+
+.edge {
+  width: 100vw;
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+}
+
+.line1 {
+  width: .5px;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 5vw;
+}
+
+.line2 {
+  width: .5px;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 10vw;
+}
+
+.line3 {
+  width: .5px;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 90vw;
+}
+
+.floating-falcon {
+  z-index: -1;
+  opacity: .2;
+  display: none;
+  position: absolute;
+  top: -2rem;
+  left: calc(50vw - 13vh);
+}
+
+.floating-falcon-image {
+  width: 26vh;
 }
 
 /*# sourceMappingURL=index.748ad148.css.map */

@@ -1,12 +1,24 @@
+@import "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&dkkisplay=swap";
+@import "https://fonts.googleapis.com/css2?family=Monoton&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lobster&family=Megrim&display=swap";
 @media (max-width: 72rem) {
   .mood-div {
     gap: 2vw;
+  }
+
+  .header-logo {
+    width: 40%;
+  }
+
+  .header-nav {
+    width: 60%;
   }
 }
 
 @media (max-width: 55rem) {
   .mood-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .mood-card {
@@ -16,12 +28,32 @@
   .mood-image {
     width: 90%;
   }
+
+  .header-logo {
+    width: 30%;
+  }
+
+  .header-image {
+    width: 55%;
+  }
+
+  .header-nav {
+    width: 70%;
+  }
+
+  .banner-main-text {
+    font-size: 6rem;
+  }
+
+  .header-nav-link {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 40rem) {
   .mood-title {
     margin-bottom: 5vh;
-    font-size: 3rem;
+    font-size: 2.9rem;
   }
 
   .music-box {
@@ -36,17 +68,53 @@
   .mood-foot-cred {
     font-size: 1.5rem;
   }
+
+  .full-logo {
+    display: none;
+  }
+
+  .falcon-logo-one {
+    display: block;
+  }
+
+  .header-logo {
+    width: 20%;
+  }
+
+  .header-image {
+    width: 55%;
+  }
+
+  .header-nav {
+    width: 80%;
+  }
+
+  .banner-main-text {
+    font-size: 4rem;
+  }
+
+  .banner-sub-text {
+    font-size: 1.5rem;
+  }
+
+  .header-nav-link {
+    font-size: 1rem;
+  }
+
+  .falcon-logo-two {
+    display: none;
+  }
 }
 
 @media (max-width: 28rem) {
   .mood-title {
     margin-bottom: 5vh;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .mood-div {
-    grid-template-rows: 35% 35%;
-    grid-template-columns: 30% 30%;
+    grid-template-rows: 40% 40%;
+    grid-template-columns: 35% 35%;
     gap: 10%;
     display: grid;
   }
@@ -55,15 +123,46 @@
     font-size: 2rem;
   }
 
-  .music-box {
-    bottom: 7rem;
-    left: -1rem;
+  .mood-foot-cred {
+    text-align: center;
+    font-size: 1.5rem;
   }
 
-  .mood-foot {
-    position: absolute;
-    bottom: 7rem;
-    right: -1rem;
+  .header-nav-one {
+    display: none;
+  }
+
+  .header-nav-two {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+  }
+
+  .header {
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .falcon-logo-one {
+    display: none;
+  }
+
+  .header-nav-two {
+    width: 100%;
+  }
+
+  .header-nav-link {
+    font-size: 2rem;
+  }
+
+  .banner-div {
+    top: 25vh;
+    left: 0;
+  }
+
+  .floating-falcon {
+    display: block;
   }
 }
 
