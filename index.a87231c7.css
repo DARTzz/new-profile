@@ -161,8 +161,8 @@
     left: 0;
   }
 
-  .floating-falcon {
-    display: block;
+  .banner {
+    height: 80vh;
   }
 }
 

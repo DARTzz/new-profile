@@ -314,17 +314,4 @@
   left: 90vw;
 }
 
-.floating-falcon {
-  z-index: -1;
-  opacity: .2;
-  display: none;
-  position: absolute;
-  top: -2rem;
-  left: calc(50vw - 13vh);
-}
-
-.floating-falcon-image {
-  width: 26vh;
-}
-
 /*# sourceMappingURL=index.748ad148.css.map */
