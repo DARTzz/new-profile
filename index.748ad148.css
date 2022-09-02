@@ -31,7 +31,7 @@
 .mood-div {
   height: 60%;
   width: 100%;
-  z-index: 1;
+  z-index: 9;
   justify-content: center;
   align-items: center;
   gap: 5vw;
@@ -40,6 +40,7 @@
 
 .mood-card {
   height: 50%;
+  z-index: 9;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -105,7 +106,7 @@
 .header {
   height: 12vh;
   width: 100vw;
-  z-index: 100;
+  z-index: 10;
   outline-offset: 1rem;
   background-color: #161616;
   border-bottom-left-radius: 55px;
@@ -203,14 +204,14 @@
 
 .header-pause-icon {
   opacity: .7;
-  z-index: 200;
+  z-index: 10;
   display: none;
   position: absolute;
 }
 
 .header-play-icon {
   opacity: .7;
-  z-index: 200;
+  z-index: 10;
   position: absolute;
 }
 
@@ -275,7 +276,12 @@
   transition: all .5s;
 }
 
-.banner-button:hover {
+.banner-button-link {
+  z-index: 9;
+  text-decoration: none;
+}
+
+.banner-button-link:hover {
   cursor: pointer;
   transition: all .5s;
   transform: scale(1.1);
@@ -284,6 +290,7 @@
 .edge {
   width: 100vw;
   height: 30vh;
+  z-index: 8;
   position: absolute;
   bottom: 0;
 }
@@ -291,6 +298,7 @@
 .line1 {
   width: .5px;
   height: 100%;
+  z-index: 8;
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -300,6 +308,7 @@
 .line2 {
   width: .5px;
   height: 100%;
+  z-index: 8;
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -309,6 +318,7 @@
 .line3 {
   width: .5px;
   height: 100%;
+  z-index: 8;
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -323,6 +333,53 @@
 .card-link:focus {
   box-shadow: none;
   outline: none;
+}
+
+.about {
+  width: 90vw;
+  justify-content: space-around;
+  gap: 5rem;
+  align-items: right;
+  z-index: 9;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 5rem 7rem;
+  display: flex;
+}
+
+.about-div {
+  z-index: 9;
+}
+
+.about-paragraph {
+  text-align: right;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-family: Rubik, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.about-button {
+  width: 20rem;
+  color: #fff;
+  z-index: 9;
+  outline-offset: .5rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline-width: 1px;
+  outline-style: solid;
+  justify-content: center;
+  align-self: end;
+  align-items: center;
+  padding-top: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: valorantFont, cursive;
+  font-size: 3rem;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.748ad148.css.map */
