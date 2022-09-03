@@ -35,6 +35,15 @@
     padding-left: 5rem;
     padding-right: 5rem;
   }
+
+  .projects-card {
+    width: 22vw;
+  }
+
+  .projects-cards {
+    justify-content: center;
+    gap: 1vw;
+  }
 }
 
 @media (max-width: 55rem) {
@@ -81,6 +90,22 @@
 
   .about-paragraph {
     font-size: 1.5rem;
+  }
+
+  .projects-card {
+    height: 70vh;
+    width: 30vw;
+  }
+
+  .projects-cards {
+    height: 150vh;
+    grid-template-columns: auto auto;
+    gap: 10vh;
+    display: grid;
+  }
+
+  .project-image {
+    width: 25vw;
   }
 }
 
@@ -163,6 +188,21 @@
   .about-paragraph {
     padding: 0;
     font-size: 1.5rem;
+  }
+
+  .projects-card {
+    width: 45vw;
+    height: 60vh;
+  }
+
+  .projects-cards {
+    height: 60vh;
+    gap: 1rem;
+  }
+
+  .projects-div {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -257,6 +297,20 @@
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.25;
+  }
+
+  .projects-cards {
+    height: 240vh;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .projects-card {
+    width: 70vw;
+  }
+
+  .project-image {
+    width: 50vw;
   }
 }
 
