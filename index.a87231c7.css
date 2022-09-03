@@ -300,13 +300,14 @@
   }
 
   .projects-cards {
-    height: 240vh;
+    height: 200vh;
     flex-direction: column;
     display: flex;
   }
 
   .projects-card {
     width: 80vw;
+    height: 50vh;
   }
 
   .project-image {
