@@ -456,9 +456,13 @@
 
 .project-paragraph {
   text-align: center;
+  width: 100%;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: .5rem;
   font-family: Rubik, sans-serif;
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=index.748ad148.css.map */
