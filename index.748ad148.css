@@ -435,7 +435,7 @@
   display: flex;
 }
 
-.link-button, .github-button {
+.link-button {
   color: #fff;
   width: 60%;
   outline-offset: .5rem;
@@ -452,9 +452,29 @@
   display: flex;
 }
 
+.github-button {
+  color: #fff;
+  width: 60%;
+  outline-offset: .5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  outline-width: 1px;
+  outline-style: solid;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-family: valorantFont, cursive;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+}
+
 .project-paragraph {
+  text-align: center;
   font-family: Rubik, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
