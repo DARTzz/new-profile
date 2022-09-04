@@ -382,6 +382,7 @@
   padding-right: 1rem;
   font-family: valorantFont, cursive;
   font-size: 3rem;
+  text-decoration: none;
   display: flex;
 }
 
