@@ -30,13 +30,13 @@ body {
 
 .section--hidden {
   opacity: 0;
-  transition: all 1s 1s;
+  transition: all 1s .5s;
   transform: translateY(8rem);
 }
 
 .section--visible {
   opacity: 1;
-  transition: all 1s 1s;
+  transition: all 1s .5s;
   transform: translateY(0);
 }
 
