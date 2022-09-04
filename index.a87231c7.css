@@ -125,6 +125,29 @@
   .techText-text {
     font-size: 3rem;
   }
+
+  .footer {
+    height: 70vh;
+  }
+
+  .footer-lower {
+    height: 55vh;
+  }
+
+  .footer-logo {
+    width: 50%;
+  }
+
+  .footer-lower-div {
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+
+  .footer-lower-text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 40rem) {
@@ -362,6 +385,38 @@
     font-size: 1.25rem;
     font-weight: 300;
     text-decoration: none;
+  }
+
+  .footer-lower {
+    height: 55vh;
+  }
+
+  .footer-logo {
+    width: 70%;
+  }
+
+  .footer-lower-div {
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    padding: 2rem 1rem 1rem;
+  }
+
+  .footer-lower-text {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .preetam-singh-name, .valorant-name {
+    font-size: 1.25rem;
+  }
+
+  .footer-lower-contacts {
+    gap: 1rem;
+  }
+
+  .footer-upper-quote {
+    font-size: 2rem;
   }
 }
 

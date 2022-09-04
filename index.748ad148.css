@@ -538,4 +538,105 @@
   transform: translateX(5rem);
 }
 
+.footer {
+  height: 50vh;
+  width: 100vw;
+  z-index: 9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.footer-upper {
+  height: 15vh;
+  width: 100vw;
+  z-index: 9;
+  outline-offset: -.5rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  outline: 2px solid #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footer-lower {
+  height: 35vh;
+  width: 100vw;
+  z-index: 9;
+  background: linear-gradient(to top, #000c, #000000b3), url("Background1.ca26d335.png") top / cover no-repeat;
+}
+
+.footer-upper-quote {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: valorantFont, cursive;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.footer-logo {
+  width: 20%;
+}
+
+.footer-lower-contacts {
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  display: flex;
+}
+
+.footer-lower-div {
+  height: 15vh;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: flex;
+}
+
+.footer-lower-text {
+  color: #fff;
+  text-align: right;
+  font-family: Rubik, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.preetam-singh-name {
+  color: red;
+  font-family: valorantFont, sans-serif;
+  font-size: 1.75rem;
+}
+
+.valorant-name {
+  color: #87ceeb;
+  font-family: valorantFont, sans-serif;
+  font-size: 1.75rem;
+}
+
+.footer-icon {
+  outline-offset: -.5rem;
+  background-color: #000;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 2px solid #fff;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.footer-icon:hover {
+  cursor: pointer;
+  transition: all .5s;
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=index.748ad148.css.map */
