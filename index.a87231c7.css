@@ -44,6 +44,14 @@
     justify-content: center;
     gap: 1vw;
   }
+
+  .technology {
+    gap: 4rem;
+  }
+
+  .techText-text {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 55rem) {
@@ -106,6 +114,16 @@
 
   .project-image {
     width: 25vw;
+  }
+
+  .technology {
+    height: 20rem;
+    width: 100%;
+    gap: 5rem;
+  }
+
+  .techText-text {
+    font-size: 3rem;
   }
 }
 
@@ -196,13 +214,26 @@
   }
 
   .projects-cards {
-    height: 60vh;
     gap: 1rem;
   }
 
   .projects-div {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .technology {
+    height: 10rem;
+    gap: 2rem;
+    padding-left: 3rem;
+  }
+
+  .techImage-image {
+    width: 50%;
+  }
+
+  .techText-text {
+    font-size: 1.75rem;
   }
 }
 
@@ -312,6 +343,25 @@
 
   .project-image {
     width: 50vw;
+  }
+
+  .technology {
+    height: 12rem;
+    gap: 1rem;
+    overflow: visible;
+  }
+
+  .techImage-image {
+    width: 50%;
+  }
+
+  .techText-text {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-decoration: none;
   }
 }
 
