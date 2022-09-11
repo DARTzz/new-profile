@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&dkkisplay=swap";
+@import "https://fonts.googleapis.com/css2?family=Monoton&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lobster&family=Megrim&display=swap";
+@font-face {
+  font-family: valorantFont;
+  src: url("font.0c88a349.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+}
+
+:focus {
+  outline: none;
+  transition: all .2s;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 .5rem #f72585;
+}
+
+.section--hidden {
+  opacity: 0;
+  transition: all 1s .5s;
+  transform: translateY(8rem);
+}
+
+.section--visible {
+  opacity: 1;
+  transition: all 1s .5s;
+  transform: translateY(0);
+}
+
+.preLoad {
+  display: none;
+}
+
+.common-headings {
+  width: 100%;
+  text-align: right;
+  outline-offset: -.5rem;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  outline: 1px solid #fff;
+  padding: 1rem 2rem .5rem .5rem;
+  font-family: valorantFont, cursive;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.common-sub-headings {
+  width: 100%;
+  text-align: right;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  padding-right: 2rem;
+  font-family: Rubik, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+a:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=index.c1ccc107.css.map */
